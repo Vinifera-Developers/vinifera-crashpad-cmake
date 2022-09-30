@@ -1,7 +1,7 @@
-# crashpad-cmake 
+# Crashpad
 Wanting a CMake wrapper around Google's Crashpad library and the supporting mini_chromium library to make it easy to integrate into CMake projects?
 
-Based on existing works to provide a CMake solution for Crashpad we've put this together mainly for use as a submodule by [Assembly Armarda](https://github.com/TheAssemblyArmada) projects.
+Based on existing works to provide a CMake solution for Crashpad we've put this together mainly for use as a submodule by [Vinifera](https://github.com/Vinifera-Developers/) projects.
 
 ## Getting started
 
@@ -11,7 +11,7 @@ There are various ways to include this in your own project. One is to just add i
 include(FetchContent)
 FetchContent_Declare(
   crashpad_cmake
-  GIT_REPOSITORY https://github.com/TheAssemblyArmada/crashpad-cmake.git
+  GIT_REPOSITORY https://github.com/Vinifera-Developers/vinifera-crashpad-cmake.git
   GIT_TAG        deadbeef  # Put the commit ref you want to build here.
 )
 FetchContent_MakeAvailable(crashpad_cmake)
